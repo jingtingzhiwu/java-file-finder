@@ -8,7 +8,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 class TargetNodeParser implements NodeParser<Dimen> {
-	private List<Dimen> targetList = new ArrayList<>();
+	private List<Dimen> targetList = new ArrayList<Dimen>();
 
 	@Override
 	public void parser(NodeList list) {

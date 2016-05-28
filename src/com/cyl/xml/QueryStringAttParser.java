@@ -52,7 +52,7 @@ public class QueryStringAttParser implements NodeParser<StringNode> {
 	@Override
 	public List<StringNode> getTargetList() {
 		if (targetList == null)
-			targetList = new ArrayList<>();
+			targetList = new ArrayList<StringNode>();
 		// TODO Auto-generated method stub
 		return targetList;
 	}

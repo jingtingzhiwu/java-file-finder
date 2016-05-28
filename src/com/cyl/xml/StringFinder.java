@@ -33,7 +33,7 @@ public class StringFinder {
 		if (result == null)
 			result = new StringBuilder();
 		if (matchStrList == null)
-			matchStrList = new ArrayList<>();
+			matchStrList = new ArrayList<String>();
 		while (matcher.find()) {
 			String s = matcher.group();
 			matchStrList.add(s);
